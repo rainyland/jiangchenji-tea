@@ -1,0 +1,46 @@
+{
+  "accounts": [
+    {
+      "id": "account_01",
+      "name": "江陈记茶业-主号",
+      "proxy": "",
+      "env": "D:\\jcs_auto\\envs\\account_01"
+    },
+    {
+      "id": "account_02",
+      "name": "江陈记茶业-分号2",
+      "proxy": "",
+      "env": "D:\\jcs_auto\\envs\\account_02"
+    }
+  ],
+  "publish_each": 1,
+  "day_start": 9,
+  "day_end": 22,
+  "batch_window": {"start": 19, "duration": 60},
+  "scenario": "送礼",
+  "scenario_rotation": ["送礼", "旅游", "企业", "门店"],
+  "product": "恩施玉露茶礼盒",
+  "points": [
+    "明前头采，海苔香",
+    "蒸青工艺，湖北恩施",
+    "礼盒大气，送人有面"
+  ],
+  "points_sets": [
+    ["明前头采，海苔香", "蒸青工艺，湖北恩施", "礼盒大气，送人有面"],
+    ["汤色清亮，回甘明显", "源自恩施富硒茶山", "礼盒包装高级，收礼有面子"]
+  ],
+  "use_scene": "过年走亲戚拎一盒，长辈当场拆开就夸",
+  "use_scenes": [
+    "过年走亲戚拎一盒，长辈当场拆开就夸",
+    "客户来访随手一送，商务谈事更有诚意"
+  ],
+  "keyword": "1",
+  "template": "series_grid",
+  "series_rotation": ["双拼套装", "利川红", "楚汉茶礼"],
+  "cover_line1": "武汉特色宝藏伴手礼",
+  "cover_line2": "送礼首选！",
+  "grid_labels": ["节日茶礼", "企业团购", "烟酒批发", "旅游特产"],
+  "center_text": "茶礼定制",
+  "headline_override": "",
+  "material_priority": "01_产品线"
+}

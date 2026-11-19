@@ -1,0 +1,4 @@
+# 核心依赖（正式发布还需 playwright，见 README）
+Pillow>=10.0.0
+# 可选：浏览器自动化发布（商家部署时启用）
+# playwright>=1.40.0
